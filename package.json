@@ -1,0 +1,38 @@
+{
+  "name": "bot-framework-composer-custom-action-sample",
+  "version": "1.0.0",
+  "description": "Custom action sample for Bot Framework Composer",
+  "author": "Kazumi OHIRA <dzeyelid@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "exported",
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzeyelid/bot-framework-composer-custom-action-sample.git"
+  },
+  "peerDependencies": {
+    "adaptive-expressions": "^4.14.1",
+    "botbuilder": "^4.14.1",
+    "botbuilder-dialogs": "^4.14.1",
+    "botbuilder-dialogs-adaptive-runtime-core": "~4.14.1-preview",
+    "botbuilder-dialogs-declarative": "~4.14.1-preview"
+  },
+  "devDependencies": {
+    "adaptive-expressions": "^4.14.1",
+    "botbuilder": "^4.14.1",
+    "botbuilder-dialogs": "^4.14.1",
+    "botbuilder-dialogs-adaptive-runtime-core": "~4.14.1-preview",
+    "botbuilder-dialogs-declarative": "~4.14.1-preview",
+    "nodemon": "^2.0.13",
+    "typescript": "^4.4.3"
+  }
+}
