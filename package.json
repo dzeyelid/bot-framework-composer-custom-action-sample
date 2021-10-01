@@ -1,5 +1,5 @@
 {
-  "name": "bot-framework-composer-custom-action-sample",
+  "name": "@dzeyelid/bot-framework-composer-custom-action-sample",
   "version": "1.0.0",
   "description": "Custom action sample for Bot Framework Composer",
   "author": "Kazumi OHIRA <dzeyelid@gmail.com>",
